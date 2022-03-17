@@ -1,0 +1,21 @@
+.card {
+  height: 300px;
+  width: 300px;
+}
+
+.image-container {
+  height: 70%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px 5px #0000000d;
+  position: relative;
+}
+
+.user-container {
+  display: flex;
+  align-items: center;
+}

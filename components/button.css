@@ -1,0 +1,22 @@
+.btn-position {
+  position: absolute;
+  left: 14px;
+  top: 10px;
+}
+
+.btn-grey {
+  text-decoration: none;
+  background-color: white;
+  padding: 4px;
+  border-radius: 5px;
+  color: grey;
+}
+
+.btn-display {
+  opacity: 0;
+}
+
+.card:hover .btn-display {
+  opacity: 1;
+  transition: 0.5s;
+}
